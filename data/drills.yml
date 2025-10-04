@@ -1,0 +1,195 @@
+manejo_balon_basic:
+  categoria: "manejo_balon"
+  intensidad: "media"
+  min_sugeridos: 15
+  equipo_requerido: ["balon"]
+  descripcion: "Con dos balones: alternados, simultáneos, cambios de mano."
+
+tiro_forma:
+  categoria: "tiro_estatico"
+  intensidad: "baja"
+  min_sugeridos: 10
+  equipo_requerido: ["balon"]
+  descripcion: "Tiro cercano enfatizando mecánica (codo, muñeca, arco)."
+
+tiro_salir_pantalla:
+  categoria: "tiro_movimiento"
+  intensidad: "alta"
+  min_sugeridos: 20
+  equipo_requerido: ["balon","conos"]
+  descripcion: "Simular pin-down, recibir y tirar/cortar."
+
+closeouts_1v1:
+  categoria: "defensa"
+  intensidad: "media"
+  min_sugeridos: 15
+  equipo_requerido: ["conos"]
+  descripcion: "Closeouts con control, desplazamientos laterales, recuperación."
+
+hiit_pista:
+  categoria: "condicionamiento"
+  intensidad: "alta"
+  min_sugeridos: 10
+  equipo_requerido: []
+  descripcion: "Intervalos 15'' esfuerzo / 45'' trote x 10."
+
+fuerza_circuito:
+  categoria: "fuerza"
+  intensidad: "media"
+  min_sugeridos: 15
+  equipo_requerido: ["bandas"]
+  descripcion: "Empujes, jalones, sentadillas, saltos bajos (pliometría controlada)."
+
+movilidad_total:
+  categoria: "movilidad"
+  intensidad: "baja"
+  min_sugeridos: 8
+  equipo_requerido: []
+  descripcion: "Cadera, tobillo, T-spine, respiración diafragmática."
+
+enfriamiento:
+  categoria: "enfriamiento"
+  intensidad: "baja"
+  min_sugeridos: 5
+  equipo_requerido: []
+  descripcion: "Foam roll opcional + estiramientos suaves."
+
+pases_basicos:
+  categoria: "manejo_balon"
+  intensidad: "baja"
+  min_sugeridos: 10
+  equipo_requerido: ["balon"]
+  descripcion: "Pases de pecho, picado, sobre la cabeza en parejas."
+
+dribbling_cambio_ritmo:
+  categoria: "manejo_balon"
+  intensidad: "media"
+  min_sugeridos: 12
+  equipo_requerido: ["balon"]
+  descripcion: "Cambios de mano, entre piernas, velocidad variable."
+
+tiro_catch_shoot:
+  categoria: "tiro_movimiento"
+  intensidad: "media"
+  min_sugeridos: 20
+  equipo_requerido: ["balon"]
+  descripcion: "Catch & shoot desde distintas posiciones con pase."
+
+tiro_3puntos:
+  categoria: "tiro_movimiento"
+  intensidad: "alta"
+  min_sugeridos: 20
+  equipo_requerido: ["balon"]
+  descripcion: "Series de triples con ritmo, control de recuperación."
+
+palmeo_fintas:
+  categoria: "juego_de_pies"
+  intensidad: "baja"
+  min_sugeridos: 10
+  equipo_requerido: []
+  descripcion: "Trabajo de pies y pivote, desplazamientos cortos."
+
+desplazamientos_laterales:
+  categoria: "defensa"
+  intensidad: "media"
+  min_sugeridos: 12
+  equipo_requerido: []
+  descripcion: "Deslizamientos defensivos, postura y recuperación."
+
+1vs1_ataque:
+  categoria: "tiro_movimiento"
+  intensidad: "alta"
+  min_sugeridos: 15
+  equipo_requerido: ["balon"]
+  descripcion: "Drills 1v1 centrados en fin de jugada y tiro."
+
+circuito_agilidad:
+  categoria: "condicionamiento"
+  intensidad: "media"
+  min_sugeridos: 15
+  equipo_requerido: ["conos"]
+  descripcion: "Zetas, slalom y trabajo de coordinación."
+
+sprints_cortos:
+  categoria: "condicionamiento"
+  intensidad: "alta"
+  min_sugeridos: 10
+  equipo_requerido: []
+  descripcion: "Sprints 20m con recuperación activa."
+
+trabajo_core:
+  categoria: "fuerza"
+  intensidad: "baja"
+  min_sugeridos: 10
+  equipo_requerido: []
+  descripcion: "Planks, deadbugs, y estabilización."
+
+saltos_controlados:
+  categoria: "fuerza"
+  intensidad: "media"
+  min_sugeridos: 12
+  equipo_requerido: []
+  descripcion: "Saltos verticales con técnica y aterrizaje suave."
+
+drill_pick_and_roll:
+  categoria: "tiro_movimiento"
+  intensidad: "media"
+  min_sugeridos: 15
+  equipo_requerido: ["balon"]
+  descripcion: "Ejercicios de pick-and-roll, pase y tiro."
+
+recuperacion_activa:
+  categoria: "movilidad"
+  intensidad: "baja"
+  min_sugeridos: 10
+  equipo_requerido: []
+  descripcion: "Pedaleo suave, caminata y movilidad ligera."
+
+tiro_libre_series:
+  categoria: "tiro_estatico"
+  intensidad: "baja"
+  min_sugeridos: 10
+  equipo_requerido: ["balon"]
+  descripcion: "Series de tiro libre enfocado en rutina."
+
+dribble_vs_defensa:
+  categoria: "manejo_balon"
+  intensidad: "alta"
+  min_sugeridos: 15
+  equipo_requerido: ["balon"]
+  descripcion: "1v1 controlado con énfasis en proteger balón."
+
+stopping_shooting:
+  categoria: "tiro_movimiento"
+  intensidad: "media"
+  min_sugeridos: 15
+  equipo_requerido: ["balon"]
+  descripcion: "Paradas y tiros en ritmo desde diferentes ángulos."
+
+closeout_reaccion:
+  categoria: "defensa"
+  intensidad: "alta"
+  min_sugeridos: 12
+  equipo_requerido: ["conos"]
+  descripcion: "Closeouts con reacción a pase y recuperación."
+
+resistencia_intervalos:
+  categoria: "condicionamiento"
+  intensidad: "media"
+  min_sugeridos: 15
+  equipo_requerido: []
+  descripcion: "Intervalos 2min trabajo /1min trote."
+
+movilidad_hombro_cadera:
+  categoria: "movilidad"
+  intensidad: "baja"
+  min_sugeridos: 8
+  equipo_requerido: []
+  descripcion: "Movilidad específica para hombro y cadera."
+
+enfriamiento_estiramientos:
+  categoria: "enfriamiento"
+  intensidad: "baja"
+  min_sugeridos: 5
+  equipo_requerido: []
+  descripcion: "Estiramientos suaves y respiración."

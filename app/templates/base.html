@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Planificador Baloncesto</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 style="margin:0;font-size:1.25rem">Planificador Inteligente — Baloncesto</h1>
+      </div>
+    </header>
+    <main class="container">
+      <div class="banner">Esta herramienta planifica entrenamientos; <strong>NO</strong> es consejo médico. Si sientes dolor, consulta a un profesional. Política de datos: los datos se guardan localmente.</div>
+      {% block content %}{% endblock %}
+    </main>
+    <footer style="text-align:center;padding:1rem;color:var(--muted)">Creado para planificación responsable — Datos locales (Ley 1581/2012)</footer>
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>

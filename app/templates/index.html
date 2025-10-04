@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="grid">
+  <div class="card">
+    <h3>Crear plan</h3>
+    <form id="planForm" method="post" action="/api/plan">
+      <label>Nivel</label>
+      <select name="nivel"><option value="principiante">Principiante</option><option value="intermedio" selected>Intermedio</option><option value="avanzado">Avanzado</option></select>
+      <label>Semanas</label>
+      <input name="semanas" value="4" type="number" min="1" max="12" />
+      <label>Disponibilidad (días, coma separados)</label>
+      <input name="disponibilidad" value="lun,mar,jue,sab" type="text" />
+      <label>Duración sesión (min)</label>
+      <input name="duracion_sesion_min" value="90" type="number" />
+      <label>Objetivos (coma separados)</label>
+      <input name="objetivos" value="mejorar tiro,resistencia" type="text" />
+      <label>Equipamiento (coma separados)</label>
+      <input name="equipamiento" value="balon,conos,bandas" type="text" />
+      <div class="controls">
+        <button id="generate">Generar plan</button>
+        <button id="exportCsv" type="button" class="secondary">Exportar CSV</button>
+        <button id="exportPdf" type="button" class="secondary">Exportar PDF</button>
+      </div>
+    </form>
+  </div>
+  <div class="card">
+    <h3>Previsualización / Resultado</h3>
+    <div id="resultArea" class="result-area">
+      <p class="meta">Genera un plan para ver las sesiones aquí. Puedes exportar CSV o PDF una vez guardado (se guardará automáticamente en la base de datos cuando se genere).</p>
+      <div id="sessionsGrid" class="sessions-grid"></div>
+    </div>
+  </div>
+</div>
+
+<!-- frontend logic is in /static/app.js -->
+{% endblock %}
